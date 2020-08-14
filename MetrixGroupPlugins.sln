@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetrixGroupPlugins", "MetrixGroupPlugins.csproj", "{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug64|Any CPU = Debug64|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}.Debug64|Any CPU.ActiveCfg = Debug64|Any CPU
+		{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
+		{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F64E50F7-1CB2-4214-BA03-F78C4153DE57}
+	EndGlobalSection
+EndGlobal

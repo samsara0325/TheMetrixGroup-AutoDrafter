@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug64</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E100530-C4EF-4F0B-A4E2-D7DD48D5C383}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetrixGroupPlugins</RootNamespace>
+    <AssemblyName>MetrixGroupPlugins</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bullzip.PDFWriter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=041d71cacb6e853c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Bullzip.PDFWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>packages\CsvHelper.2.15.0.2\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4420.1017\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.4589.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=103.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.103.1\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 6\System\RhinoCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCustomerPerimeterLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomerPerimeterLayer.Designer.cs">
+      <DependentUpon>AddCustomerPerimeterLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDimensions.cs" />
+    <Compile Include="ClusterToolRotationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClusterToolRotationForm.Designer.cs">
+      <DependentUpon>ClusterToolRotationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\AddCornerNotches.cs" />
+    <Compile Include="Commands\AddSummaryLayout.cs" />
+    <Compile Include="Commands\CreateDimensionsCommand.cs" />
+    <Compile Include="Commands\DistanceDetection.cs" />
+    <Compile Include="Commands\FitRedLabels.cs" />
+    <Compile Include="Commands\MyCommand1.cs" />
+    <Compile Include="Commands\NestingPrintCommand.cs" />
+    <Compile Include="Commands\CreatePDFWithWaterMark.cs" />
+    <Compile Include="Commands\RotateFormCommand.cs" />
+    <Compile Include="Commands\SendAgreementCommand.cs" />
+    <Compile Include="CustomFixingHole\CustomFixingHoles.cs" />
+    <Compile Include="CustomFixingHole\FixingHoles.cs" />
+    <Compile Include="DoubleFoldedDrawer.cs" />
+    <Compile Include="Esign_Automation\AccessTokenModel.cs" />
+    <Compile Include="Esign_Automation\adobeSignConnector.cs" />
+    <Compile Include="Esign_Automation\AdobeFormField.cs" />
+    <Compile Include="Esign_Automation\TransientDocumentModel.cs" />
+    <Compile Include="Helper\LayerSelector.cs" />
+    <Compile Include="MessageBoxes\MessageBoxEx.cs" />
+    <Compile Include="NewPanelParametersCSVClassMap.cs" />
+    <Compile Include="Commands\AddFoldedFlatLayoutCommand.cs" />
+    <Compile Include="Commands\CreatePanelsCommand.cs" />
+    <Compile Include="Commands\CustomPrintCommand.cs" />
+    <Compile Include="FlatPanelDrawer.cs" />
+    <Compile Include="FPPanelCSVMap.cs" />
+    <Compile Include="Commands\AddFoldedLayoutCommand.cs" />
+    <Compile Include="Commands\AddLayoutCommand.cs" />
+    <Compile Include="Commands\FixingHolesIntegrationCommand.cs" />
+    <Compile Include="Commands\FixingHolesCommand.cs" />
+    <Compile Include="Commands\MassDFXExportCommand.cs" />
+    <Compile Include="Commands\PanelBordersCommand.cs" />
+    <Compile Include="Commands\GeometryPopulateCommand.cs" />
+    <Compile Include="Commands\FormingToolCommand.cs" />
+    <Compile Include="Commands\CaveToolCommand.cs" />
+    <Compile Include="Commands\DotMatrixFrontLabellerCommand.cs" />
+    <Compile Include="Commands\ClusterToolSearcherCommand.cs" />
+    <Compile Include="Commands\PDFSharpCommand.cs" />
+    <Compile Include="Commands\Q1LabellerCommand.cs" />
+    <Compile Include="Commands\ReplaceTextInLabelCommand.cs" />
+    <Compile Include="Commands\CADFilesMergerCommand.cs" />
+    <Compile Include="Commands\Selection2DXFExportCommand.cs" />
+    <Compile Include="Commands\DotMatrixLabellerCommand.cs" />
+    <Compile Include="Commands\M01LabellerCommand.cs" />
+    <Compile Include="FindAndReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindAndReplaceForm.Designer.cs">
+      <DependentUpon>FindAndReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDesignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDesignForm.Designer.cs">
+      <DependentUpon>AddDesignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClusterToolSearcherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClusterToolSearcherForm.Designer.cs">
+      <DependentUpon>ClusterToolSearcherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoldedPanelCSVClassMap.cs" />
+    <Compile Include="FoldedPanelDrawer.cs" />
+    <Compile Include="MessageBoxes\Messages.cs" />
+    <Compile Include="PanelDrawer.cs" />
+    <Compile Include="PanelParameters.cs" />
+    <Compile Include="PanelParametersCSVClassMap.cs" />
+    <Compile Include="PanelCSVClassMap.cs" />
+    <Compile Include="Patterns\Broadway.cs" />
+    <Compile Include="Patterns\MetrixPattern.cs" />
+    <Compile Include="Patterns\PhoenixMorsePattern.cs" />
+    <Compile Include="Patterns\ThirdStackPattern.cs" />
+    <Compile Include="Patterns\TreadPerfPattern.cs" />
+    <Compile Include="Patterns\JazzPattern.cs" />
+    <Compile Include="Patterns\AquaPattern.cs" />
+    <Compile Include="Patterns\MatrixPattern.cs" />
+    <Compile Include="Patterns\ClusterToolSearcherPattern.cs" />
+    <Compile Include="Patterns\SixtyDegreeStripePattern.cs" />
+    <Compile Include="Patterns\TrianglePattern.cs" />
+    <Compile Include="Patterns\WeavePattern.cs" />
+    <Compile Include="FoldedPerforationPanel.cs" />
+    <Compile Include="PerforationPanel.cs" />
+    <Compile Include="ClusterTool.cs" />
+    <Compile Include="Patterns\AtomicPoissonPattern.cs" />
+    <Compile Include="Patterns\BrailleRandomClusterPattern.cs" />
+    <Compile Include="Patterns\StaggeredPattern.cs" />
+    <Compile Include="Patterns\TechnoPattern.cs" />
+    <Compile Include="Patterns\MorsePattern.cs" />
+    <Compile Include="Patterns\FourtyFiveDegreePattern.cs" />
+    <Compile Include="Patterns\BraillePattern.cs" />
+    <Compile Include="Patterns\CrescendaPattern.cs" />
+    <Compile Include="Patterns\StraightPattern.cs" />
+    <Compile Include="Patterns\SixtyDegreePattern.cs" />
+    <Compile Include="Patterns\NintyDegreePattern.cs" />
+    <Compile Include="Commands\CreatePanelFromCSVCommand.cs" />
+    <Compile Include="Commands\PerforateCommand.cs" />
+    <Compile Include="PerforationDesign.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PunchingToolFactory.cs" />
+    <Compile Include="PatternFactory.cs" />
+    <Compile Include="PerforationPattern.cs" />
+    <Compile Include="PointMap.cs" />
+    <Compile Include="PunchingPoint.cs" />
+    <Compile Include="PunchingTool.cs" />
+    <Compile Include="Commands\PerforationCreatorCommand.cs" />
+    <Compile Include="MetrixGroupPlugin.cs" />
+    <Compile Include="PerforationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerforationForm.designer.cs">
+      <DependentUpon>PerforationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PunchingTools\EqTriangle.cs" />
+    <Compile Include="PunchingTools\Hexagon.cs" />
+    <Compile Include="PunchingTools\Weave.cs" />
+    <Compile Include="PunchingTools\Rectangle.cs" />
+    <Compile Include="PunchingTools\Obround.cs" />
+    <Compile Include="PunchingTools\Lens.cs" />
+    <Compile Include="PunchingTools\Round.cs" />
+    <Compile Include="RandomTileEngine\TileSupply.cs" />
+    <Compile Include="RandomTileEngine\Coord2d.cs" />
+    <Compile Include="RandomTileEngine\RandomTileEngine.cs" />
+    <Compile Include="Resources\CustomPrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\CustomPrintForm.Designer.cs">
+      <DependentUpon>CustomPrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\NotchInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\NotchInformation.Designer.cs">
+      <DependentUpon>NotchInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\MassDXFOptionSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\MassDXFOptionSelection.Designer.cs">
+      <DependentUpon>MassDXFOptionSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PDFOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\PDFOptionForm.Designer.cs">
+      <DependentUpon>PDFOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\RequiredLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\RequiredLayer.Designer.cs">
+      <DependentUpon>RequiredLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SendAgreementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\SendAgreementForm.Designer.cs">
+      <DependentUpon>SendAgreementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\createSubLayers.cs" />
+    <Compile Include="Utilities\MetrixUtilities.cs" />
+    <Compile Include="Utilities\RhinoUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCustomerPerimeterLayer.resx">
+      <DependentUpon>AddCustomerPerimeterLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClusterToolRotationForm.resx">
+      <DependentUpon>ClusterToolRotationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindAndReplaceForm.resx">
+      <DependentUpon>FindAndReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDesignForm.resx">
+      <DependentUpon>AddDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClusterToolSearcherForm.resx">
+      <DependentUpon>ClusterToolSearcherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerforationForm.resx">
+      <DependentUpon>PerforationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CustomPrintForm.resx">
+      <DependentUpon>CustomPrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MassDXFOptionSelection.resx">
+      <DependentUpon>MassDXFOptionSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\NotchInformation.resx">
+      <DependentUpon>NotchInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PDFOptionForm.resx">
+      <DependentUpon>PDFOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RequiredLayer.resx">
+      <DependentUpon>RequiredLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SendAgreementForm.resx">
+      <DependentUpon>SendAgreementForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fonts\dotmat_0.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="MetrixGroupPlugins.rui">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PatternImage\SixtyDegreePattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PatternImage\BraillePattern.PNG" />
+    <None Include="PatternImage\NintyDegreePattern.png" />
+    <None Include="PatternImage\MorsePattern.PNG" />
+    <None Include="PatternImage\FourtyFiveDegreePattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PatternImage\AtomicPattern.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PatternImage\TechnoPattern.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PatternImage\StaggeredPattern.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Custom.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Dependencies\Bullzip.PDFWriter.dll" />
+    <Content Include="Dependencies\PdfSharp.dll" />
+    <Content Include="Design.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DotMatrixLabeller32x32.png" />
+    <Content Include="DXFExport32x32.png" />
+    <Content Include="IconImage\CADImport.png" />
+    <Content Include="IconImage\DotMatrixFrontLabeller32x32.png" />
+    <Content Include="IconImage\DotMatrixLabeller.png" />
+    <Content Include="IconImage\DotMatrixLabeller32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IconImage\DXFExport.png" />
+    <Content Include="IconImage\DXFExport32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IconImage\FileMerge.png" />
+    <Content Include="IconImage\M01Label.png" />
+    <Content Include="IconImage\M01Labeller.png" />
+    <Content Include="IconImage\M01Labeller32x32.png" />
+    <Content Include="IconImage\PanelBorder24x24.png" />
+    <Content Include="IconImage\PanelBorder32x32.png" />
+    <Content Include="IconImage\PDFSharpCommand.png" />
+    <Content Include="IconImage\PDFSharpCommand32x32.png" />
+    <Content Include="IconImage\PerforationCreator.png" />
+    <Content Include="IconImage\PerforationCreator32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IconImage\Q1Labeller.png" />
+    <Content Include="IconImage\Q1Labeller32x32.png" />
+    <Content Include="IconImage\replace-icon.gif" />
+    <Content Include="IconImage\replace.png" />
+    <Content Include="IconImage\ReplaceText.jpg" />
+    <Content Include="IconImage\ReplaceText32x32.png" />
+    <Content Include="IconImage\replace_icon.jpg" />
+    <Content Include="IconImage\RhinoPrintCommand.png" />
+    <Content Include="IconImage\RhinoPrintCommand32x32.png" />
+    <Content Include="IconImage\White 6.jpg" />
+    <Content Include="IconImage\White 6.png" />
+    <Content Include="Logo\MetrixLogo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logo\MetrixLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PatternImage\AquaPattern.PNG" />
+    <Content Include="PerforationCreator32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).rhp"
+ 
+Erase "$(TargetPath)" 
+xcopy "$(ProjectDir)bin" "$(ProjectDir)temp\Rhino 5.0\" /e /s /y /r /h
+move  /y  "$(ProjectDir)temp\Rhino 5.0\MetrixGroupPlugins.rui" "$(ProjectDir)temp\" 
+if not exist "$(ProjectDir)PluginsInstaller" mkdir "$(ProjectDir)PluginsInstaller" 
+"C:\Program Files\WinRAR\Winrar.exe"  a -afzip -ep1 -r -df  "$(ProjectDir)PluginsInstaller\$(ProjectName).zip"  "$(ProjectDir)temp\"
+Erase "$(ProjectDir)PluginsInstaller\$(ProjectName).rhi"
+rename  "$(ProjectDir)PluginsInstaller\$(ProjectName).zip"  "$(ProjectName).rhi"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <FallbackCulture>en-US</FallbackCulture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <StartProgram>C:\Program Files\Rhinoceros 5 (64-bit)\System\Rhino.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+added fixing holes to the side dimensions
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Master
+# Changes to be committed:
+#	modified:   Commands/CustomFixingHoles.cs
+#	modified:   FlatPanelDrawer.cs
+#	modified:   FoldedPanelDrawer.cs
+#	modified:   PluginsInstaller/MetrixGroupPlugins.rhi
+#

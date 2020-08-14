@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PerforationCreator.ClusterTool" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAEAAAQAAAACEAIAABACAAAAAAAAAIAAAQCAACEBAA=</HashCode>
+      <FileName>ClusterTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PatternFactory" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PatternFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PerforationCreatorCommand" Collapsed="true">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQCAAAAAAAAA=</HashCode>
+      <FileName>PerforationCreatorCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PerforationCreatorPlugIn" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>PerforationCreatorPlugIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PerforationDesign" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PerforationDesign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PerforationForm" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMmMiAYqADCABzDECCCJDBCaEBNgAjKECCQBJQM0oUI=</HashCode>
+      <FileName>PerforationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PerforationPattern" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAQAAAAEEAAAAAAAAQUAAAAtEAAACBAQAAgAAA=</HashCode>
+      <FileName>PerforationPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PointMap" Collapsed="true">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAgAAACA=</HashCode>
+      <FileName>PointMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingPoint" Collapsed="true">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAgAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PunchingPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingTool" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAkAAAQBAAAAAAQAAAAgQAAgIEAAAAAEBgABAAYJI=</HashCode>
+      <FileName>PunchingTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingToolFactory" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PunchingToolFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.AtomicPoissonPattern" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAABAAAABAEAQAAAAAAAA=</HashCode>
+      <FileName>Patterns\AtomicPoissonPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.BraillePattern" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patterns\BraillePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.FourtyFiveDegreePattern" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patterns\FourtyFiveDegreePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.MorsePattern" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patterns\MorsePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.NintyDegreePattern" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patterns\NintyDegreePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.SixtyDegreePattern" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patterns\SixtyDegreePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Patterns.StraightPattern" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patterns\StraightPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Properties.Resources" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.Properties.Settings" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAGAAAAAAAAIAEAAQABAAACAAACAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingTools.Obround" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAABI=</HashCode>
+      <FileName>PunchingTools\Obround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingTools.Rectangle" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAABI=</HashCode>
+      <FileName>PunchingTools\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerforationCreator.PunchingTools.Round" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAIBI=</HashCode>
+      <FileName>PunchingTools\Round.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

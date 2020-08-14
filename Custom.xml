@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerforationPattern xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PerforationPattern xsi:type="FourtyFiveDegreePattern">
+    <Name>45 degrees</Name>
+    <XSpacing>10</XSpacing>
+    <YSpacing>5</YSpacing>
+    <Pitch>7.07</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>15.881818862204057</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>30</X>
+        <Y>30</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>Rectangle90Small</Shape>
+          <Enable>false</Enable>
+          <PinsX>3</PinsX>
+          <PinsY>5</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>2</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="SixtyDegreePattern">
+    <Name>60 degrees</Name>
+    <XSpacing>33</XSpacing>
+    <YSpacing>28.578838324886473</YSpacing>
+    <Pitch>33</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>70.0427155827613</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Hexagon">
+        <Name>Hexagon</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>28</X>
+        <Y>32.331615074619037</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>Rectangle90Small</Shape>
+          <Enable>false</Enable>
+          <PinsX>1</PinsX>
+          <PinsY>2</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>2</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="NintyDegreePattern">
+    <Name>90 degrees</Name>
+      <XSpacing>14.5</XSpacing>
+      <YSpacing>14.5</YSpacing>
+      <Pitch>14.5</Pitch>
+      <Randomness>1</Randomness>
+      <OpenArea>24.049698880879916</OpenArea>
+      <AtomicNumber>0</AtomicNumber>
+      <PunchingToolList>
+        <PunchingTool xsi:type="Round">
+          <Name>Round</Name>
+          <DisplayName>Tool 1</DisplayName>
+          <X>8</X>
+          <Y>8</Y>
+          <AreaPercentage>0</AreaPercentage>
+          <ClusterTool>
+            <Shape>RectangleSmall</Shape>
+            <Enable>true</Enable>
+            <PinsX>4</PinsX>
+            <PinsY>2</PinsY>
+            <MultiplierX>1</MultiplierX>
+            <MultiplierY>1</MultiplierY>
+            <AllowOverPunch>true</AllowOverPunch>
+            <Rotatable>false</Rotatable>
+          </ClusterTool>
+          <Gap>0</Gap>
+        </PunchingTool>
+      </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="StraightPattern">
+    <Name>Straight</Name>
+    <XSpacing>65</XSpacing>
+    <YSpacing>65</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>54.612313256228838</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Rectangle">
+        <Name>Rectangle</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>50</X>
+        <Y>50</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="AtomicPoissonPattern">
+    <Name>Atomic Poisson</Name>
+    <XSpacing>0</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>5</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>33.254272481146735</OpenArea>
+    <AtomicNumber>3</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>19</X>
+        <Y>19</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>10</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>12</X>
+        <Y>12</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>5</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>8</X>
+        <Y>8</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>5</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 4</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 5</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="BraillePattern">
+    <Name>Braille</Name>
+    <XSpacing>58</XSpacing>
+    <YSpacing>58</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0.6</Randomness>
+    <OpenArea>29.049012959923378</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>50</X>
+        <Y>50</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>2</PinsX>
+          <PinsY>1</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>1</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>25</X>
+        <Y>25</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>4</PinsX>
+          <PinsY>1</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>1</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="MorsePattern">
+    <Name>Morse</Name>
+    <XSpacing>15</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>51.645848824518723</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>10</X>
+        <Y>10</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="TechnoPattern">
+    <Name>Techno</Name>
+    <XSpacing>32</XSpacing>
+    <YSpacing>32</YSpacing>
+    <Pitch>32</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>45.594258475683688</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>30</X>
+        <Y>30</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>19</X>
+        <Y>19</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleLarge</Shape>
+          <Enable>false</Enable>
+          <PinsX>4</PinsX>
+          <PinsY>1</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>1</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>true</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="StaggeredPattern">
+    <Name>Staggered</Name>
+    <XSpacing>60</XSpacing>
+    <YSpacing>14</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>54.400531313487704</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Lens">
+        <Name>Lens</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>40</X>
+        <Y>18</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="AquaPattern">
+    <Name>Aqua</Name>
+    <XSpacing>33.5</XSpacing>
+    <YSpacing>33.5</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>21.735743260291855</OpenArea>
+    <AtomicNumber>8</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>20</X>
+        <Y>20</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>15</X>
+        <Y>15</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>12</X>
+        <Y>12</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 4</DisplayName>
+        <X>8</X>
+        <Y>8</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 5</DisplayName>
+        <X>5</X>
+        <Y>5</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+<PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 6</DisplayName>
+        <X>23</X>
+        <Y>23</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+<PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 7</DisplayName>
+        <X>25</X>
+        <Y>25</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+<PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 8</DisplayName>
+        <X>3</X>
+        <Y>3</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0.2</Gap>
+      </PunchingTool>
+
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="JazzPattern">
+    <Name>Jazz</Name>
+    <XSpacing>68</XSpacing>
+    <YSpacing>58.889727457341827</YSpacing>
+    <Pitch>68</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>52.435413080493426</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>60</X>
+        <Y>60</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>52</X>
+        <Y>52</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>46</X>
+        <Y>46</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="WeavePattern">
+    <Name>Weave</Name>
+    <XSpacing>16.5</XSpacing>
+    <YSpacing>16.5</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Weave">
+        <Name>Weave</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>17.0424</X>
+        <Y>17.0424</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="BroadwayPattern">
+    <Name>Broadway</Name>
+    <XSpacing>14.5</XSpacing>
+    <YSpacing>7.25</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>27.716275781350134</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>12</X>
+        <Y>12</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>true</Enable>
+          <PinsX>2</PinsX>
+          <PinsY>1</PinsY>
+          <MultiplierX>2</MultiplierX>
+          <MultiplierY>1</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>4</X>
+        <Y>4</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>Triangle</Shape>
+          <Enable>true</Enable>
+          <PinsX>4</PinsX>
+          <PinsY>1</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>1</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Obround">
+        <Name>Obround</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>12</X>
+        <Y>3</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleLarge</Shape>
+          <Enable>true</Enable>
+          <PinsX>2</PinsX>
+          <PinsY>3</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>2</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>true</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Obround">
+        <Name>Obround</Name>
+        <DisplayName>Tool 4</DisplayName>
+        <X>12</X>
+        <Y>3</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleLarge</Shape>
+          <Enable>true</Enable>
+          <PinsX>2</PinsX>
+          <PinsY>3</PinsY>
+          <MultiplierX>1</MultiplierX>
+          <MultiplierY>2</MultiplierY>
+          <AllowOverPunch>true</AllowOverPunch>
+          <Rotatable>true</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="MatrixPattern">
+    <Name>Matrix</Name>
+    <XSpacing>0</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="MetrixPattern">
+    <Name>Metrix</Name>
+    <XSpacing>37.5</XSpacing>
+    <YSpacing>37.5</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>32</X>
+        <Y>32</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>22</X>
+        <Y>22</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+	  <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>15</X>
+        <Y>15</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="SixtyDegreeStripePattern">
+    <Name>60 degrees Stripe</Name>
+    <XSpacing>0</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Obround">
+        <Name>Obround</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="TrianglePattern">
+    <Name>Triangle</Name>
+    <XSpacing>0</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="EqTriangle">
+        <Name>Eq Triangle</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>0</X>
+        <Y>0</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="TreadPerfPattern">
+    <Name>TreadPerfPattern</Name>
+    <XSpacing>42</XSpacing>
+    <YSpacing>21</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>1</Randomness>
+    <OpenArea>22.862173734116276</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 1</DisplayName>
+        <X>12.7</X>
+        <Y>12.7</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 2</DisplayName>
+        <X>19</X>
+        <Y>19</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Round">
+        <Name>Round</Name>
+        <DisplayName>Tool 3</DisplayName>
+        <X>25</X>
+        <Y>25</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+  <PerforationPattern xsi:type="ThirdStackPattern">
+    <Name>Third Stack</Name>
+    <XSpacing>0</XSpacing>
+    <YSpacing>0</YSpacing>
+    <Pitch>0</Pitch>
+    <Randomness>0</Randomness>
+    <OpenArea>0</OpenArea>
+    <AtomicNumber>0</AtomicNumber>
+    <PunchingToolList>
+      <PunchingTool xsi:type="Rectangle">
+        <Name>Rectangle</Name>
+        <DisplayName>Short</DisplayName>
+        <X>13.333333333333334</X>
+        <Y>8</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Rectangle">
+        <Name>Rectangle</Name>
+        <DisplayName>Medium</DisplayName>
+        <X>31.666666666666668</X>
+        <Y>8</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+      <PunchingTool xsi:type="Rectangle">
+        <Name>Rectangle</Name>
+        <DisplayName>Long</DisplayName>
+        <X>50</X>
+        <Y>8</Y>
+        <AreaPercentage>0</AreaPercentage>
+        <ClusterTool>
+          <Shape>RectangleSmall</Shape>
+          <Enable>false</Enable>
+          <PinsX>0</PinsX>
+          <PinsY>0</PinsY>
+          <MultiplierX>0</MultiplierX>
+          <MultiplierY>0</MultiplierY>
+          <AllowOverPunch>false</AllowOverPunch>
+          <Rotatable>false</Rotatable>
+        </ClusterTool>
+        <Gap>0</Gap>
+      </PunchingTool>
+    </PunchingToolList>
+  </PerforationPattern>
+</ArrayOfPerforationPattern>

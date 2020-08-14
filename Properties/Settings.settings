@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MetrixGroupPlugins.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PatternIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Tolerance" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.0001</Value>
+    </Setting>
+    <Setting Name="EnableMultiClusterToolLayer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DesignIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PerforationLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PERFORATION</Value>
+    </Setting>
+    <Setting Name="ClusterLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CLUSTER TOOL</Value>
+    </Setting>
+    <Setting Name="DrawClusterOnSeparateLayer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AtomicMaxSearch" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="PoissonIterations" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="ShowAtomicProgress" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DetailViewLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DETAILS VIEW</Value>
+    </Setting>
+    <Setting Name="ToolHitLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TOOL HIT</Value>
+    </Setting>
+    <Setting Name="CTSPinX" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CTSPinY" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="CTSXMulti" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CTSYMulti" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CTSAllowOP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DesignFileLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PanelBorderDefault" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="ClusterSampleLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CLUSTER SAMPLE</Value>
+    </Setting>
+    <Setting Name="FixingHoleSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="FixingHoleOffsetX" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="FixingHoleOffsetY" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="FixingHoleSpacing" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">250</Value>
+    </Setting>
+    <Setting Name="FixingHoleMinimum" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ClusterToolRotation" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DotFontLayerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DOTS</Value>
+    </Setting>
+    <Setting Name="DotMatrixHeight" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">8.5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
